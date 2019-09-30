@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+
+KhriStyle v1.0
+Khaleb O'Brien
+Wednesday, 19th June, 2019
+
+ -->
+<head>
+	<title>Square Rotating animation - css</title>
+	<style type="text/css">
+		#page-content {
+			text-align: center;
+			animation-name: animationbottom;
+			animation-duration: 1s;
+			position: relative;
+		}
+		@keyframes animationbottom {
+			from{
+				bottom: -100px;
+				opacity: o;
+			}
+			to{
+				bottom: 0px;
+				opacity: 1;
+			}
+		}
+		#kspinner{
+			width: 120px;
+			height: 120px;
+			background: transparent;
+			border-left: 10px solid gray;
+			border-right: 10px solid gray;
+			border-top: 10px solid lightgreen;
+			border-bottom: 10px solid lightgreen;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -60px;
+			margin-top: -60px;
+			/*border-radius: 50px;*/
+			animation: loader 2s linear infinite;
+		}
+		@keyframes loader{
+			100%{
+				transform: rotate(360deg);
+			}
+		}
+
+	</style>
+
+</head>
+<body onload="myfun()">
+
+	<div id="kspinner"></div>
+
+
+
+	<div style="display: none;" id="page-content">
+		<p>Hello, Welcome</p>
+	</div>
+
+
+
+
+
+<script type="text/javascript">
+	function myfun(){
+		var test = setTimeout(loadPage, 3000);
+	}
+	function loadPage(){
+		document.getElementById('page-content').style.display = 'block';
+		document.getElementById('kspinner').style.display = 'none';
+	}
+</script>
+
+</body>
+</html>

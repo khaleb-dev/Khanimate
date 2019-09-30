@@ -1,0 +1,21 @@
+#kspinner{
+	width: 120px;
+	height: 120px;
+	background: transparent;
+	border-left: 10px solid gray;
+	border-right: 10px solid gray;
+	border-top: 10px solid #4973ff;
+	border-bottom: 10px solid #4973ff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	margin-top: -60px;
+	border-radius: 50%;
+	animation: loader 2s linear infinite;
+}
+@keyframes loader{
+	100%{
+		transform: rotate(360deg);
+	}
+}

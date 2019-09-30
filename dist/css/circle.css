@@ -1,0 +1,96 @@
+#kspinner{
+	width: 120px;
+	height: 120px;
+	background: transparent;
+	border-left: 10px solid gray;
+	border-right: 10px solid gray;
+	border-top: 10px solid lightgreen;
+	border-bottom: 10px solid lightgreen;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -80px;
+	margin-top: -80px;
+	border-radius: 50%;
+	animation: kloader 2s linear infinite;
+}
+@keyframes kloader{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+#kspinner2{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border-left: 10px solid gray;
+	border-right: 10px solid gray;
+	border-top: 10px solid lightgreen;
+	border-bottom: 10px solid lightgreen;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -70px;
+	margin-top: -70px;
+	border-radius: 50%;
+	animation: kloaderin 2s linear infinite;
+}
+@keyframes kloaderin{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(-360deg);
+	}
+}
+#kspinner3{
+	width: 80px;
+	height: 80px;
+	background: transparent;
+	border-left: 10px solid gray;
+	border-right: 10px solid gray;
+	border-top: 10px solid lightgreen;
+	border-bottom: 10px solid lightgreen;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	margin-top: -60px;
+	border-radius: 50%;
+	animation: kloaderinn 2s linear infinite;
+}
+@keyframes kloaderinn{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+#kspinner4{
+	width: 60px;
+	height: 60px;
+	background: transparent;
+	border-left: 10px solid gray;
+	border-right: 10px solid gray;
+	border-top: 10px solid lightgreen;
+	border-bottom: 10px solid lightgreen;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	border-radius: 50%;
+	animation: kloaderinnl 2s linear infinite;
+}
+@keyframes kloaderinnl{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(-360deg);
+	}
+}

@@ -1,0 +1,16 @@
+#kfly-in-bottom {
+	text-align: center;
+	animation-name: animationbottom;
+	animation-duration: 1s;
+	position: relative;
+}
+@keyframes animationbottom {
+	from{
+		bottom: -100px;
+		opacity: o;
+	}
+	to{
+		bottom: 0px;
+		opacity: 1;
+	}
+}
